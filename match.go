@@ -30,6 +30,7 @@ type Participant struct {
 	Timeline      ParticipantTimeline `json:"timeline"`
 	ProfileIconID int                 `json:"profileIconId"`
 	SummonerName  string              `json:"summonerName"`
+	SummonerId    int 		  `json:"summonerId"`
 	Bot           bool                `json:"bot"`
 }
 
